@@ -1,0 +1,36 @@
+{
+  "name": "antares-theme",
+  "displayName": "Antares Theme",
+  "description": "A minimal dark deep-space theme featuring true black backgrounds and high-contrast red accents inspired by the red supergiant star Antares.",
+  "version": "1.0.0",
+  "publisher": "antares",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark",
+    "minimal",
+    "space",
+    "red",
+    "antares",
+    "hud"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/scintill-a/antares-theme"
+  },
+  "license": "MIT",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Antares Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/antares-theme.json"
+      }
+    ]
+  }
+}
