@@ -245,7 +245,9 @@
       "scope": [
         "variable",
         "support.variable",
-        "entity.other.attribute-name"
+        "entity.other.attribute-name",
+        "variable.other.constant",
+        "constant.other"
       ],
       "settings": {
         "foreground": "#aaaaaa"
@@ -255,8 +257,7 @@
       "scope": [
         "constant.numeric",
         "constant.language",
-        "constant.character",
-        "constant.other"
+        "constant.character"
       ],
       "settings": {
         "foreground": "#ff4444"
