@@ -20,6 +20,32 @@ A minimal dark deep-space theme featuring true black backgrounds and high-contra
 2. Reload your editor.
 3. Select **Antares Theme** from the Color Theme menu.
 
+### Neovim
+
+Antares comes with a fully-featured, native Neovim colorscheme with integrations for popular plugins like Telescope, NvimTree, GitSigns, and CMP.
+
+**Using [lazy.nvim](https://github.com/folke/lazy.nvim):**
+
+```lua
+{
+  "scintill-a/antares-theme",
+  lazy = false,
+  priority = 1000,
+  config = function()
+    vim.cmd("colorscheme antares")
+  end,
+}
+```
+
+**Using [vim-plug](https://github.com/junegunn/vim-plug):**
+
+```vim
+Plug 'scintill-a/antares-theme'
+
+" Add this somewhere in your init.vim
+colorscheme antares
+```
+
 ## License
 
 [MIT](LICENSE)
